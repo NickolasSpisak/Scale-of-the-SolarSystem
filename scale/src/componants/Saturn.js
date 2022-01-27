@@ -1,13 +1,18 @@
-import saturn from "../saturn.jpg";
 import { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 class Saturn extends Component {
   render() {
     return (
-      <div className="containter">
+      <div
+        className="containter"
+        id="saturn"
+        style={{
+          backgroundImage: "url(/images/saturn-background.jpg)",
+        }}
+      >
         <div className="row">
           <div className="col">
-            <img src={saturn} height={200} />
+            <img src={"/images/saturn.png"} height={200} />
           </div>
           <div className="col-4">
             <h1>Reaching New Heights</h1>

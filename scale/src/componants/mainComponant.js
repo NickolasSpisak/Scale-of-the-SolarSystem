@@ -16,10 +16,12 @@ import SaturnToUranus from "./SaturnToUranus";
 import Uranus from "./Uranus";
 import UranusToNeptune from "./UranusToNeptune";
 import Neptune from "./Neptune";
+import Header from "./header";
 class Main extends Component {
   render() {
     return (
       <div>
+        <Header />
         <Sun />
         <SunToMercury />
         <Mercury />

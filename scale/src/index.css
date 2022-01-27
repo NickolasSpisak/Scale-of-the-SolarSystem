@@ -1,8 +1,6 @@
-.SunToMercury {
-  background-image: "./spaceBackground.webp";
+#star-background {
+  background-image: "milkyway.jpg";
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#Mercury-background {
+  background-image: "hubble.jpg";
 }

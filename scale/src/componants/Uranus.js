@@ -1,10 +1,9 @@
-import uranus from "../uranus.jpg";
 import { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 class Uranus extends Component {
   render() {
     return (
-      <div className="containter">
+      <div className="containter" id="uranus">
         <div className="row">
           <div className="col-4">
             <h1>New Frontier</h1>
@@ -20,7 +19,7 @@ class Uranus extends Component {
             </p>
           </div>
           <div className="col">
-            <img src={uranus} height={200} />
+            <img src={"/images/uranus.png"} height={200} />
           </div>
         </div>
       </div>

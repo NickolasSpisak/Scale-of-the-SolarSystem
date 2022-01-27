@@ -1,10 +1,15 @@
-import earth from "../earth.jpg";
 import { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 class Earth extends Component {
   render() {
     return (
-      <div className="containter">
+      <div
+        className="containter"
+        id="earth"
+        style={{
+          backgroundImage: "url(/images/earth-background.jpg)",
+        }}
+      >
         <div className="row">
           <div className="col-4">
             <h1>Welcome Home</h1>
@@ -16,7 +21,7 @@ class Earth extends Component {
             </p>
           </div>
           <div className="col">
-            <img src={earth} height={200} />
+            <img src={"/images/earth.png"} height={200} />
           </div>
         </div>
       </div>

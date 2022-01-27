@@ -1,13 +1,11 @@
-import neptune from "../neptune.png";
 import { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 class Neptune extends Component {
   render() {
     return (
-      <div className="containter">
+      <div className="containter" id="neptune">
         <div className="row">
           <div className="col">
-            <img src={neptune} height={200} />
+            <img src={"/images/neptune.png"} height={200} />
           </div>
           <div className="col-4">
             <h1>The Edge of Our Known World</h1>

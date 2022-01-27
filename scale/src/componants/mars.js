@@ -1,13 +1,18 @@
-import venus from "../venus.jpeg";
 import { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 class Mars extends Component {
   render() {
     return (
-      <div className="containter">
+      <div
+        id="mars"
+        className="containter"
+        style={{
+          backgroundImage: "url(/images/mars-background.jpg)",
+        }}
+      >
         <div className="row">
           <div className="col">
-            <img src={venus} height={200} />
+            <img src={"/images/mars.png"} height={200} />
           </div>
           <div className="col-4">
             <h1>Take a Break You're Halfway</h1>
