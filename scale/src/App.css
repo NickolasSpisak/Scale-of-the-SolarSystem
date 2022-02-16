@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.Nav {
+  background-color: white;
+}
+.Sun {
+  padding: 10;
+}
+.Mercury {
+  padding: 10;
+}
+.Venus {
+  padding: 10;
+}

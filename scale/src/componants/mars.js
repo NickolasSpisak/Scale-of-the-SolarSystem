@@ -7,16 +7,16 @@ class Mars extends Component {
         id="mars"
         className="containter"
         style={{
-          backgroundImage: "url(/images/mars-background.jpg)",
+          backgroundImage: "url(/images/milkyway.jpg)",
         }}
       >
         <div className="row">
-          <div className="col">
-            <img src={"/images/mars.png"} height={200} />
+          <div className="col px-5">
+            <img src={"/images/mars.png"} height={600} />
           </div>
-          <div className="col-4">
-            <h1>Take a Break You're Halfway</h1>
-            <p>
+          <div className="col-4 px-5">
+            <h1 style={{ color: "white" }}>Take a Break You're Halfway</h1>
+            <p style={{ color: "white" }}>
               "The Red Planet" Mars is called this due to its' iron which
               oxidizes. The same affect as rusting on a bike. Mars is smaller
               than one would expect, only 4,220 miles in radius, making it

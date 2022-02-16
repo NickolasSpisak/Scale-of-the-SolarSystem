@@ -7,16 +7,16 @@ class Saturn extends Component {
         className="containter"
         id="saturn"
         style={{
-          backgroundImage: "url(/images/saturn-background.jpg)",
+          backgroundImage: "url(/images/milkyway.jpg)",
         }}
       >
         <div className="row">
           <div className="col">
-            <img src={"/images/saturn.png"} height={200} />
+            <img src={"/images/saturn.png"} height={300} />
           </div>
-          <div className="col-4">
-            <h1>Reaching New Heights</h1>
-            <p>
+          <div className="col px-5">
+            <h1 style={{ color: "white" }}>Reaching New Heights</h1>
+            <p style={{ color: "white" }}>
               Saturn's main feature is the large rings that surround it. All
               four of the gas giants have rings, but Saturn's are the largest.
               They are made of ice and rocks, while the planet itself is made of
