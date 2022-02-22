@@ -12,7 +12,7 @@ class Mars extends Component {
       >
         <div className="row">
           <div className="col px-5">
-            <img src={"/images/mars.png"} height={600} />
+            <img src={"/images/mars.png"} height={600} alt="mars" />
           </div>
           <div className="col-4 px-5">
             <h1 style={{ color: "white" }}>Take a Break You're Halfway</h1>

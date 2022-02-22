@@ -10,7 +10,7 @@ class Neptune extends Component {
         <div className="containter" id="neptune">
           <div className="row">
             <div className="col">
-              <img src={"/images/neptune.png"} height={600} />
+              <img src={"/images/neptune.png"} height={600} alt="neptune" />
             </div>
             <div className="col-4">
               <h1 style={{ color: "white" }}>The Edge of Our Known World</h1>

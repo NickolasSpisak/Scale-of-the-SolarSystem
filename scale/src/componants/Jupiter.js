@@ -28,7 +28,7 @@ class Jupiter extends Component {
               <span></span>
             </div>
             <div className="col align-self-right">
-              <img src={"/images/jupiter.png"} height={700} />
+              <img src={"/images/jupiter.png"} height={700} alt="jupiter" />
             </div>
           </div>
         </div>

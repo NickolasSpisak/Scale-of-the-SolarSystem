@@ -12,7 +12,7 @@ class Saturn extends Component {
       >
         <div className="row">
           <div className="col">
-            <img src={"/images/saturn.png"} height={300} />
+            <img src={"/images/saturn.png"} height={300} alt="saturn" />
           </div>
           <div className="col px-5">
             <h1 style={{ color: "white" }}>Reaching New Heights</h1>

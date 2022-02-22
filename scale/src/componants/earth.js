@@ -21,7 +21,7 @@ class Earth extends Component {
             </p>
           </div>
           <div className="col px-5">
-            <img src={"/images/earth.png"} height={600} />
+            <img src={"/images/earth.png"} height={600} alt="earth" />
           </div>
         </div>
       </div>

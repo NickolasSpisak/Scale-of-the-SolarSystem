@@ -24,7 +24,7 @@ class Uranus extends Component {
               </p>
             </div>
             <div className="col">
-              <img src={"/images/uranus.png"} height={600} />
+              <img src={"/images/uranus.png"} height={600} alt="uranus" />
             </div>
           </div>
         </div>
