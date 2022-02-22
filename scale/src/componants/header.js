@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import { Navbar } from "reactstrap";
+// import { Navbar } from "reactstrap";
 import "../App.css";
 
 export default class Header extends Component {
