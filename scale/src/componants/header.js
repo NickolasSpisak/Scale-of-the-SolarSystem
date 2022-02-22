@@ -6,7 +6,7 @@ import "../App.css";
 export default class Header extends Component {
   render() {
     return (
-      <Navbar fixed="top" className="Nav">
+      <div>
         <ul
           style={{
             display: "flex",
@@ -60,7 +60,7 @@ export default class Header extends Component {
             </Link>
           </li>
         </ul>
-      </Navbar>
+      </div>
     );
   }
 }
