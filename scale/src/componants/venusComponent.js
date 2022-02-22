@@ -11,7 +11,7 @@ class Venus extends Component {
         <div className="containter" id="venus">
           <div className="row">
             <div className="col px-5">
-              <img src={"/images/venus.png"} height={600} />
+              <img src={"/images/venus.png"} height={600} alt="sun" />
             </div>
             <div className="col-4 px-5">
               <h1 style={{ color: "white" }}>Take a Breather</h1>

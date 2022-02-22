@@ -21,7 +21,7 @@ class Mercury extends Component {
               </p>
             </div>
             <div className="col px-5">
-              <img src={"/images/mercury.png"} height={600} />
+              <img src={"/images/mercury.png"} height={600} alt="mercury" />
             </div>
           </div>
         </div>

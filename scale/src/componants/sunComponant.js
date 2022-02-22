@@ -25,7 +25,7 @@ class Sun extends Component {
               </p>
             </div>
             <div className="col">
-              <img src={"/images/sun.png"} />
+              <img src={"/images/sun.png"} alt="sun" />
             </div>
           </div>
         </div>
