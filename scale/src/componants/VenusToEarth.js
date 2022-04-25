@@ -4,7 +4,7 @@ export default function VenusToEarth() {
   };
 
   return (
-    <div style={{ backgroundImage: "url(./images/spaceBackground.webp)" }}>
+    <div style={{ backgroundImage: url("./images/spaceBackground.webp") }}>
       {runCallback(() => {
         const row = [];
         for (var i = 0; i < 3963; i++) {
