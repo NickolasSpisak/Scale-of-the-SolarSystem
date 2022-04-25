@@ -7,7 +7,7 @@ class Jupiter extends Component {
         className="containter"
         id="jupiter"
         style={{
-          backgroundImage: "url(/images/milkyway.jpg)",
+          backgroundImage: "url(./images/milkyway.jpg)",
         }}
       >
         <div className="row">

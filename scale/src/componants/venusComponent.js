@@ -5,7 +5,7 @@ class Venus extends Component {
     return (
       <div
         style={{
-          backgroundImage: "url(/images/milkyway.jpg)",
+          backgroundImage: "url(./images/milkyway.jpg)",
         }}
       >
         <div className="containter" id="venus">

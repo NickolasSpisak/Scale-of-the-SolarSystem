@@ -4,7 +4,7 @@ export default function EarthToMars() {
   };
 
   return (
-    <div style={{ backgroundImage: "url(/spaceBackground.webp)" }}>
+    <div style={{ backgroundImage: "url(./images/spaceBackground.webp)" }}>
       {runCallback(() => {
         const row = [];
         for (var i = 0; i < 6875; i++) {
