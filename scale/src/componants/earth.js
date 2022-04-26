@@ -1,5 +1,4 @@
 import { Component } from "react";
-
 class Earth extends Component {
   render() {
     return (
@@ -7,7 +6,7 @@ class Earth extends Component {
         className="containter"
         id="earth"
         style={{
-          backgroundImage: "url(./images/milkyway.jpg)",
+          backgroundImage: "url(/images/milkyway.jpg)",
         }}
       >
         <div className="row">

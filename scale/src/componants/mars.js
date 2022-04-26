@@ -7,7 +7,7 @@ class Mars extends Component {
         id="mars"
         className="containter"
         style={{
-          backgroundImage: "url(./images/milkyway.jpg)",
+          backgroundImage: "url(/images/milkyway.jpg)",
         }}
       >
         <div className="row">
